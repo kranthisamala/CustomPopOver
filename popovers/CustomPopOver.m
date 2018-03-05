@@ -23,7 +23,7 @@
 @property CPSelectionObject *currentCPObj;
 @end
 @implementation CustomPopOver
-- (id)initWithFrame:(CGRect)frame backgroundColor:(UIColor*)color andTransparentRects:(NSArray*)rects
+- (id)initWithFrame:(CGRect)frame bgColor:(UIColor*)color andTargetViews:(NSArray*)rects
 {
     index = 0;
     backgroundColor = color;

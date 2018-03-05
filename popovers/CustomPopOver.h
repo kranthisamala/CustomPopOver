@@ -21,7 +21,7 @@ typedef NS_ENUM(unsigned int, CustomPopOverReason) {
     UIColor *backgroundColor;
     int index;
 }
-- (id)initWithFrame:(CGRect)frame backgroundColor:(UIColor*)color andTransparentRects:(NSArray*)rects;
+- (id)initWithFrame:(CGRect)frame bgColor:(UIColor*)color andTargetViews:(NSArray*)rects;
 -(void)updateList:(NSArray*)arr;
 @property (weak,nonatomic) id<customPopOverDelegate> delegate;
 @end
